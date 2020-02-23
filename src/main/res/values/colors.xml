@@ -41,6 +41,8 @@
     <color name="elementFallbackColor">#555555</color>
     <color name="grey_200">#EEEEEE</color>
     <color name="grey_db">#dbdbdb</color>
+    <color name="mycolor">#ffdd55</color>
+    <color name="pxcolor">#062568</color>
 
     <!-- standard material color definitions -->
 

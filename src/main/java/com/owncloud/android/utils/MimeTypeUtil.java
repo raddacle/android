@@ -109,7 +109,7 @@ public final class MimeTypeUtil {
             Drawable icon = ContextCompat.getDrawable(context, iconId);
 
             if (R.drawable.file_zip == iconId) {
-                ThemeUtils.tintDrawable(icon, ThemeUtils.primaryColor(account, true, context));
+                ThemeUtils.tintDrawable(icon, context.getResources().getColor(R.color.mycolor));
             }
 
             return icon;
@@ -176,7 +176,7 @@ public final class MimeTypeUtil {
             drawableId = R.drawable.folder;
         }
 
-        return ThemeUtils.tintDrawable(drawableId, ThemeUtils.elementColor(account, context));
+        return ThemeUtils.tintDrawable(drawableId, context.getResources().getColor(R.color.mycolor));
     }
 
     public static Drawable getDefaultFolderIcon(Context context) {
